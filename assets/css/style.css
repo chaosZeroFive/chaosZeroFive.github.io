@@ -1,50 +1,94 @@
-/* CSS Document */
-
-body{
-	background-color: #EFEEE7;
-	margin: 0;
-	padding: 0;
-	font-family: "Georgia", Times, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 150%;
+.navbar-custom{
+    background-color: #05A094;
 }
 
-h1{
-	color: #EFEEE7;
-	background-color: #333333;
-	margin: 0;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 28px;
+.projectCard{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
 }
 
-h2{
-	font-size: 20px;
+.card-img-top{
+    display: inline-block;
+    height: 215px;
+    width: 100%;
+    overflow: hidden;
 }
 
-a{
-	color: #D21034;
-}
-.container{
-	width: 1024px;
-	margin: 0 auto;
+.card-img-top img{
+    width: 100%;
 }
 
-#main-bio, #contact-info, #bio-image{
-	float: left;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
 }
 
-#main-bio{
-	width: 70%;
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
 }
 
-#contact-info{
-	width: 30%;
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
 }
 
-#bio-image{
-	margin-right: 20px;
-	height: 200px;
-	width: 200px;
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
 }
