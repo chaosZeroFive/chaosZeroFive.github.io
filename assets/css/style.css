@@ -2,6 +2,10 @@
     background-color: #05A094;
 }
 
+.made-by{
+	
+}
+
 .projectCard{
     padding: 10px;
     margin: 10px;
@@ -15,8 +19,14 @@
     overflow: hidden;
 }
 
+.card-img-overlay{
+}
+
 .card-img-top img{
     width: 100%;
+}
+
+.hover-text{
 }
 
 /* Smartphones (portrait and landscape) ----------- */
